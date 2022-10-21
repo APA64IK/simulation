@@ -1,0 +1,1 @@
+export type TNumber<T extends number, N extends T extends infer R ? R : T> = N;

@@ -1,0 +1,16 @@
+{
+  "name": "simulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^18.11.0"
+  },
+  "scripts": {
+    "start": "tsc && node ./build/index.js",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
